@@ -54,7 +54,7 @@ Unique Titles Table Contents (Pre to_date Filter)
 Unique Titles Table Contents (Post to_date Filter)
 ![Unique_Titles_Content_Clean](Images/unique_with_filter.PNG)
 
-Retiring Titles: A summary breakdown of the retirement eligible employees are shown below. As you can see, the refined data in this report is different than the module summary capture image.
+- Retiring Titles: A summary breakdown of the retirement eligible employees are shown below. As you can see, the refined data in this report is different than the module summary capture image.
 
 Module Summary Capture Image
 ![Module_Summary_Capture](Images/module_summary_capture.PNG)
