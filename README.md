@@ -44,23 +44,23 @@ The mentorship eligibility is granted to employees that were born between the da
 - Retirement Titles: Two tables, Employees and Titles were joined to produce the list of retirement eligible employees and their titles. This list contained 133,776 entries which included multiple titles for some employees who had held more than one title during their careers at Pewlet Hackard.  Further refinement was needed. A sample of the table contents is shown below. The blue highlights show the duplicates and the red highlights a record that is of an employee no longer at Pewlett Hackard.
 
 Sample - Retirement Titles Table
-![Retirement_Titles_Content](Images/retirement_titles_content.png)
+![Retirement_Titles_Content](Images/retirement_titles_contents.PNG)
 
 - Unique Titles: The refined query returned 90,398 unique entries. Closer examination of the Unique Titles data revealed that the dataset still included some records of employees that were no longer employed at Pewlett Hackard. Further refinement was done to the dataset by filtering the Retirement Titles data by limiting the to_date column to only retrieve the most current title by setting the value to be 9999-01-01. The adjusted final count of retirement eligible employees is now at 72,458.
 
 Unique Titles Table Contents (Pre to_date Filter)
-![Unique_Titles_Content_Unclean](Images/unique_no_filter.png)
+![Unique_Titles_Content_Unclean](Images/unique_no_filter.PNG)
 
 Unique Titles Table Contents (Post to_date Filter)
-![Unique_Titles_Content_Clean](Images/unique_with_filter.png)
+![Unique_Titles_Content_Clean](Images/unique_with_filter.PNG)
 
 Retiring Titles: A summary breakdown of the retirement eligible employees are shown below. As you can see, the refined data in this report is different than the module summary capture image.
 
 Module Summary Capture Image
-![Module_Summary_Capture](Images/module_summary_capture.png)
+![Module_Summary_Capture](Images/module_summary_capture.PNG)
 
 Retiring Titles Summary
-![Retiring_Titles_Summary](Images/retiring_titles.png)
+![Retiring_Titles_Summary](Images/retiring_titles.PNG)
 
 - Mentorship Program Eligibility: A total count of 1,549 employees are eligible to participate in the mentorship program.
 
@@ -72,9 +72,9 @@ Retiring Titles Summary
     - A summary of the breakdown of retirement eligible employees by department and mentorship eligible employees by department are shown below. According to the Retirement Eligible Employees by Department data, yes there is enough qualified retirement-ready employees to mentor the next generation.
 
 Retirement Eligible Employees by Department
-![Retiring_by_Department](Images/retiring_by_dept.png)
+![Retiring_by_Department](Images/retiring_by_dept.PNG)
 
 Mentorship Eligible Employees by Department
-![Mentorship_by_Department](Images/mentees_by_dept.png)
+![Mentorship_by_Department](Images/mentees_by_dept.PNG)
 
 - The querries for the count of retiring and mentorship eligible employees by department cam be found at Employee_Database_Challenge [Employee_Database_Queries](Queries/Employee_Database_Challenge.sql)
